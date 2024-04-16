@@ -73,6 +73,7 @@ add_filter('wp_editor_set_quality', 'filter_avif_quality', 10, 2);
 function filter_image_editor_output_format($formats)
 {
     $formats['image/jpeg'] = 'image/avif';
+    $formats['image/png'] = 'image/avif';
     return $formats;
 }
 add_filter('image_editor_output_format', 'filter_image_editor_output_format');
