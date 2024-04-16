@@ -8,7 +8,6 @@
  * Text Domain:     avif-as-default-format
  * Domain Path:     /languages
  * Version:         0.1.0
- * Requires Plugins: meta-box, meta-box-aio
  * Requires at least: 6.5
  * @package         Avif_As_Default_Format
  */
